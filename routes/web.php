@@ -179,3 +179,6 @@ route::post('/sendMessa', MessageController::class.'@send')->name('sendMessa');
  /**
   * FINISH
   */
+ Route::fallback(function () {
+    return redirect('/');
+});

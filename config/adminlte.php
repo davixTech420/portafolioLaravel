@@ -63,9 +63,9 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo' => '<b>Datech</b>',
+    'logo_img' => 'favicon.ico',
+    'logo_img_class' => 'brand-image img-circle ',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
     'logo_img_alt' => 'Admin Logo',
@@ -86,7 +86,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+            'path' => 'favicon.ico',
             'alt' => 'Auth Logo',
             'class' => '',
             'width' => 50,
@@ -109,8 +109,8 @@ return [
     'preloader' => [
         'enabled' => true,
         'img' => [
-            'path' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
-            'alt' => 'AdminLTE Preloader Image',
+            'path' => 'favicon.ico',
+            'alt' => 'Datetch Logo',
             'effect' => 'animation__shake',
             'width' => 60,
             'height' => 60,
@@ -129,7 +129,7 @@ return [
     |
     */
 
-    'usermenu_enabled' => true,
+    'usermenu_enabled' => false,
     'usermenu_header' => false,
     'usermenu_header_class' => 'bg-primary',
     'usermenu_image' => false,
@@ -232,7 +232,7 @@ return [
     |
     */
 
-    'right_sidebar' => true,
+    'right_sidebar' => false,
     'right_sidebar_icon' => 'fas fa-cogs',
     'right_sidebar_theme' => 'dark',
     'right_sidebar_slide' => true,
@@ -291,7 +291,7 @@ return [
 
     'menu' => [
         // Navbar items:
-        [
+      /*   [
             'type'         => 'navbar-search',
             'text'         => 'search',
             'topnav_right' => true,
@@ -299,7 +299,7 @@ return [
         [
             'type'         => 'fullscreen-widget',
             'topnav_right' => true,
-        ],
+        ], */
 
         // Sidebar items:
         [

@@ -13,7 +13,7 @@
         </div>
         <div class="form-group">
             {{ Form::label('photo') }} <br>
-            {{ Form::file('photo', $job->photo, ['class' => 'form-control' . ($errors->has('photo') ? ' is-invalid' : ''), 'placeholder' => 'Photo']) }}
+            {{ Form::file('photo', ['class' => 'form-control' . ($errors->has('photo') ? ' is-invalid' : ''), 'placeholder' => 'Photo']) }}
             {!! $errors->first('photo', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">

@@ -146,9 +146,9 @@
                                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
                                     <a class="text-gradient" href="{{ $user->facebook_url }}"><i class="bi bi-facebook"></i></a>
-                                    <a class="text-gradient" href="{{ $user->twitter_url }}"><i class="bi bi-twitter"></i></a>
-                                    <a class="text-gradient" href="{{ $user->dribbble_url }}"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="{{ $user->linkedin_url }}"><i class="bi bi-github"></i></a>
+                                    <a class="text-gradient" href="{{ $user->twitter_url }}"><i class="bi bi-youtube"></i></a>
+                                    <a class="text-gradient" href="{{ $user->linkedin_url }}"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="{{ $user->dribbble_url }}"><i class="bi bi-github"></i></a>
                                 </div>
                             </div>
                         </div>
